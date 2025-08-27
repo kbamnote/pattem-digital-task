@@ -1,5 +1,7 @@
 import React from "react";
 import {  MonitorCheck,DatabaseZap,ShoppingBag,UserSearch,WalletCards,Building2,GraduationCap,Wallet,} from "lucide-react";
+import { Link } from "react-router-dom";
+
 
 const Categories = () => {
   const categories = [
@@ -25,7 +27,7 @@ const Categories = () => {
         </p>
       </div>
 
-      {/* Grid */}
+     <Link to='/jobs'>
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 sm:gap-8">
         {categories.map(({ icon: Icon, title, jobs }) => (
           <div
@@ -46,6 +48,7 @@ const Categories = () => {
           </div>
         ))}
       </div>
+      </Link>
     </section>
   );
 };

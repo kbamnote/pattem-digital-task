@@ -4,6 +4,7 @@ import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
 import "swiper/css/autoplay";
 import { Autoplay } from "swiper/modules";
+import { Link } from "react-router-dom";
 
 const RecentJobs = () => {
   const jobs = [
@@ -128,11 +129,13 @@ const RecentJobs = () => {
                   <div className="flex items-center gap-2"><MapPin className="w-5 h-5 text-teal-600" /> {job.location}</div>
                 </div>
 
-                {/* Button */}
+                
                 <div className="mt-auto pt-6">
+                  <Link to='/jobs'>
                   <button className="w-full px-6 py-3 text-base font-medium text-white bg-teal-600 rounded-xl hover:bg-teal-700 transition">
                     View Details
                   </button>
+                  </Link>
                 </div>
               </div>
             </SwiperSlide>

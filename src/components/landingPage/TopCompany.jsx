@@ -4,7 +4,8 @@ import { Swiper, SwiperSlide } from "swiper/react";
 import { Autoplay } from "swiper/modules";
 import "swiper/css";
 import { useNavigate } from "react-router-dom";
-import companies from "../../data/topCompany.json"; 
+import companies from "../../data/topCompany.json";
+import { Link } from "react-router-dom"; 
 
 const TopCompany = () => {
   const navigate = useNavigate();
@@ -38,7 +39,7 @@ const TopCompany = () => {
               onClick={() => handleCompanyClick(job.company)}
               className="cursor-pointer bg-white rounded-xl overflow-hidden shadow-lg transition-all duration-300 hover:shadow-xl hover:-translate-y-2 border border-gray-200 flex flex-col h-full"
             >
-              {/* Company Header */}
+           
               <div className="p-6 border-b border-gray-200">
                 <div className="flex items-center gap-4">
                   <img
@@ -69,7 +70,7 @@ const TopCompany = () => {
                 </div>
               </div>
 
-              {/* Job Details */}
+           
               <div className="p-6 flex flex-col flex-grow">
                 <div className="mb-auto">
                   <h4 className="text-lg font-semibold text-gray-800 mb-2">
@@ -101,15 +102,14 @@ const TopCompany = () => {
                   </div>
                 </div>
 
-                <a
-                  href={job.applyUrl}
-                  target="_blank"
-                  rel="noopener noreferrer"
+                <Link to='/jobs'
+                
+                 
                   className="flex items-center justify-center w-full bg-teal-600 hover:bg-teal-700 text-white py-3 px-4 rounded-lg font-medium transition-colors gap-2 mt-auto"
                 >
                   Apply Now
                   <ExternalLink className="w-4 h-4" />
-                </a>
+               </Link>
               </div>
             </div>
           </SwiperSlide>

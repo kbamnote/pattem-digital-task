@@ -4,8 +4,8 @@ A modern, responsive job portal interface built with React and Tailwind CSS, foc
 
 🎯 Project Scope
 
-This project implements the Candidate Experience (Job Discovery & Application Flow) for a job portal system.
-The goal is to make job discovery simple, engaging, and mobile-friendly.
+This project focuses on the Public Job Portal (Landing Page & Search Experience).
+The goal is to deliver a clean, high-converting landing page and a fast, intuitive job search flow—featuring keyword/location search, filters, and clear results—so visitors can quickly discover relevant roles and dive into details.
 
 📌 Features
 

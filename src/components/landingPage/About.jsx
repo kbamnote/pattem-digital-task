@@ -1,4 +1,6 @@
+
 import React from "react";
+import { Link } from "react-router-dom";
 
 const stats = [
   {
@@ -46,9 +48,11 @@ const About = () => {
               encourages growth.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 mt-8 justify-center lg:justify-start">
+              <Link to='/jobs'>
               <button className="px-6 py-3 rounded-lg font-semibold shadow-md bg-teal-600 text-white hover:bg-teal-700">
                 Search Job
               </button>
+              </Link>
               <button className="px-6 py-3 font-semibold text-teal-600 hover:text-teal-700">
                 Learn more
               </button>
