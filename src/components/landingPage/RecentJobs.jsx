@@ -83,12 +83,12 @@ const RecentJobs = () => {
               Discover your next career opportunity
             </p>
           </div>
-          <a
-            href="#"
+         <Link
+           to='/jobs'
             className="group flex items-center gap-2 text-teal-600 hover:text-teal-700 font-medium transition-colors"
           >
             View all jobs <span className="group-hover:translate-x-1">→</span>
-          </a>
+          </Link>
         </div>
 
         {/* Swiper */}
