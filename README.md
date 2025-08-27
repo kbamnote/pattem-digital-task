@@ -21,6 +21,37 @@ The goal is to deliver a clean, high-converting landing page and a fast, intuiti
 
 ✅ Deployed on Vercel
 
+🧭 Project Journey & Decisions
+🔹 Which Journey I Chose & Why
+
+I chose the Public Job Portal (Landing Page & Search Experience) because it highlights my ability to design modern, conversion-focused UIs that are intuitive, visually appealing, and responsive. This journey best aligns with my strengths in frontend design and user experience.
+
+🔹 3–5 Key Design Decisions
+
+Responsive-first Design → Optimized for mobile and desktop to ensure accessibility.
+
+Minimal Color Palette → Used teal as the primary accent for a modern & professional feel.
+
+Icon-driven UI → Leveraged Lucide icons instead of images to maintain consistency and reduce load time.
+
+Clean Layout → Focused on whitespace and grid layouts for readability.
+
+Modular Components → Built reusable React components for scalability.
+
+🔹 Technologies Used
+
+React, TailwindCSS, React Router, Lucide Icons
+
+Deployed on Vercel for fast, free hosting
+
+🔹 Improvements with More Time
+
+Adding real-time job API integration for live job listings
+
+Adding dark mode toggle for better UX
+
+Enhancing recruiter dashboard for future scalability
+
 🚀 Live Demo
 
 🔗 https://pattem-digital-task-blue.vercel.app/
@@ -89,3 +120,7 @@ Documented for easy understanding
 Kunal Bamnote
 Frontend Developer | React | Tailwind | Next.js
 🔗 [Portfolio](https://kunal-bamnote.framer.website/)
+
+Landing Page                                                                                                                    
+
+| ![Landing Page](https://github.com/user-attachments/assets/c80bd7c8-76f4-41ff-bdec-24d80e51bc36) | ![Job Listings](https://github.com/user-attachments/assets/af94a6f6-b364-4a9e-b815-2ffcc567efc6) | ![Testimonials](https://github.com/user-attachments/assets/6f4330a6-7398-41d7-a05b-73c7a17b0f93) |

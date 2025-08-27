@@ -11,7 +11,7 @@ const Login = () => {
       }}
     >
       <div className="flex flex-col lg:flex-row justify-center items-center min-h-screen w-full p-4 md:p-8 lg:p-12 backdrop-blur-sm">
-        {/* Login Form */}
+       
         <div className="w-full max-w-md bg-white p-6 md:p-8 lg:p-12 rounded-lg shadow-lg">
           <h2 className="text-xl md:text-2xl font-semibold mb-6 text-center">Sign In</h2>
 
@@ -39,9 +39,11 @@ const Login = () => {
               <Link to='/login' className="text-sm text-teal-500">Forgot password?</Link>
             </div>
 
+<Link to='/'>
             <button className="w-full bg-teal-700 text-white py-2 rounded hover:bg-teal-600 focus:ring-2 focus:ring-teal-300">
               LOG IN
             </button>
+            </Link>
           </form>
 
           <div className="mt-6 text-center text-gray-500">OR</div>
@@ -57,7 +59,7 @@ const Login = () => {
           </div>
         </div>
 
-        {/* Right Side */}
+       
         <div className="hidden lg:block lg:w-1/2 lg:max-w-xl xl:max-w-2xl lg:ml-16 text-white">
           <div className="p-8 rounded-lg">
             <h2 className="text-2xl md:text-3xl font-bold mb-4 text-black">

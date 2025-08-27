@@ -39,9 +39,11 @@ const Register = () => {
                <Link to='/register' className="text-sm text-teal-500">Forgot password?</Link>
             </div>
 
+<Link to='/'>
             <button className="w-full bg-teal-700 text-white py-2 rounded hover:bg-teal-600 focus:ring-2 focus:ring-teal-300">
               SIGN UP
             </button>
+            </Link>
           </form>
 
           <div className="mt-6 text-center text-gray-500">OR</div>
