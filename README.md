@@ -123,4 +123,4 @@ Frontend Developer | React | Tailwind | Next.js
 
 Landing Page                                                                                                                    
 
-| ![Landing Page](https://github.com/user-attachments/assets/c80bd7c8-76f4-41ff-bdec-24d80e51bc36) | ![Job Listings](https://github.com/user-attachments/assets/af94a6f6-b364-4a9e-b815-2ffcc567efc6) | ![Testimonials](https://github.com/user-attachments/assets/6f4330a6-7398-41d7-a05b-73c7a17b0f93) |
+| ![Landing Page](https://github.com/user-attachments/assets/c80bd7c8-76f4-41ff-bdec-24d80e51bc36) | Job Filter ![Job Listings](https://github.com/user-attachments/assets/af94a6f6-b364-4a9e-b815-2ffcc567efc6) |Testimonial ![Testimonials](https://github.com/user-attachments/assets/6f4330a6-7398-41d7-a05b-73c7a17b0f93) |
