@@ -1,12 +1,92 @@
-# React + Vite
+Job Portal UI
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern, responsive job portal interface built with React and Tailwind CSS, focusing on delivering a seamless experience for job seekers.
 
-Currently, two official plugins are available:
+🎯 Project Scope
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+This project implements the Candidate Experience (Job Discovery & Application Flow) for a job portal system.
+The goal is to make job discovery simple, engaging, and mobile-friendly.
 
-## Expanding the ESLint configuration
+📌 Features
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+✅ Responsive design with Tailwind CSS
+
+✅ Login & Signup UI
+
+✅ Job listings & testimonials section
+
+✅ Clean, modular React components
+
+✅ Lucide React icons for modern visuals
+
+✅ Deployed on Vercel
+
+🚀 Live Demo
+
+🔗 View Live Project
+
+📂 Repository
+
+🔗 GitHub Repo
+
+🛠️ Tech Stack
+
+React – UI development
+
+Tailwind CSS – Styling & responsiveness
+
+Lucide React – Icon set
+
+React Router – Navigation
+
+Vercel – Deployment
+
+🎨 Design Decisions
+
+Color Palette: Teal + Neutral Grays → fresh + professional look.
+
+Typography: Big, bold headings for clarity, paired with softer body text.
+
+Layout: Grid & flex-based layouts for readability on all screens.
+
+Icons over images: Minimalist style, faster loading, consistent UI.
+
+User-first design: Focused on clarity and intuitive navigation.
+
+📑 How to Run Locally
+
+Clone this repo
+
+git clone https://github.com/kbamnote/pattem-digital-task.git
+
+
+Go to the project folder
+
+cd jobTask
+
+
+Install dependencies
+
+npm install
+
+
+Run the development server
+
+npm run dev
+
+✅ Evaluation Highlights
+
+Clean UI with modern design principles
+
+Responsive layout (tested on mobile + desktop)
+
+Code structured in reusable components
+
+Documented for easy understanding
+
+👤 Author
+
+Kunal Bamnote
+Frontend Developer | React | Tailwind | Next.js
+🔗 Portfolio
+ | LinkedIn

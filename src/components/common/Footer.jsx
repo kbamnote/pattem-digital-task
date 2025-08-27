@@ -13,7 +13,7 @@ const Footer = () => {
     { Icon: Facebook, url: "https://facebook.com/" },
     { Icon: Twitter, url: "https://twitter.com/" },
     { Icon: Linkedin, url: "https://linkedin.com/in/" },
-    { Icon: Instagram, url: "https://www.instagram.com/udaa.nous" },
+    { Icon: Instagram, url: "https://www.instagram.com" },
   ];
 
   return (
