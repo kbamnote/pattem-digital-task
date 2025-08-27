@@ -1,0 +1,68 @@
+[
+  {
+    "company": "Google",
+    "logo": "https://www.pngmart.com/files/22/Google-PNG-Pic.png",
+    "position": "Senior Software Engineer",
+    "location": "Mountain View, CA",
+    "jobType": "Full-time",
+    "salary": "12 LPA - 30 LPA",
+    "category": "Human Resource",
+    "rating": 4.8,
+    "applyUrl": "https://careers.google.com"
+  },
+  {
+    "company": "Amazon",
+    "logo": "https://pngteam.com/images/amazon-logo-png-2400x2001_abf78dd4_transparent_202878.png.png",
+    "position": "Product Manager",
+    "location": "Seattle, WA",
+    "jobType": "Full-time",
+    "salary": "10 LPA - 25 LPA",
+    "category": "Data Science",
+    "rating": 4.6,
+    "applyUrl": "https://amazon.jobs"
+  },
+  {
+    "company": "Microsoft",
+    "logo": "https://www.freepnglogos.com/uploads/microsoft-windows-logo-png-images-30.png",
+    "position": "Cloud Solutions Architect",
+    "location": "Redmond, WA",
+    "jobType": "Full-time",
+    "salary": "14 LPA - 40 LPA",
+    "category": "Data Science",
+    "rating": 4.7,
+    "applyUrl": "https://careers.microsoft.com"
+  },
+  {
+    "company": "Apple",
+    "logo": "https://www.pngall.com/wp-content/uploads/11/Apple-Logo-PNG-HD-Image.png",
+    "position": "iOS Developer",
+    "location": "Cupertino, CA",
+    "jobType": "Full-time",
+    "salary": "13 LPA - 16 LPA",
+    "category": "Data Science",
+    "rating": 4.9,
+    "applyUrl": "https://apple.com/careers"
+  },
+  {
+    "company": "Meta",
+    "logo": "https://www.buscopng.com/wp-content/uploads/Meta-logo-6cbf608d.png",
+    "position": "AR/VR Engineer",
+    "location": "Menlo Park, CA",
+    "jobType": "Full-time",
+    "salary": "11 LPA - 15 LPA",
+    "category": "IT & Networking",
+    "rating": 4.5,
+    "applyUrl": "https://meta.com/careers"
+  },
+  {
+    "company": "Netflix",
+    "logo": "https://i.pinimg.com/originals/56/51/14/5651147964cb73f605089b47df4fe70f.png",
+    "position": "Senior Backend Engineer",
+    "location": "Los Gatos, CA",
+    "jobType": "Full-time",
+    "salary": "11 LPA - 15 LPA",
+    "category": "Data Science",
+    "rating": 4.7,
+    "applyUrl": "https://netflix.com/careers"
+  }
+]
