@@ -97,7 +97,7 @@ const ContactUs = () => {
       <div className="w-full h-[480px] overflow-hidden p-6 mb-4">
         <iframe
           title="Google Map - Head Office Gurugram"
-          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3503.408896158803!2d77.08838107549446!3d28.49052917574519!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390d193f1c0d5a6d%3A0x51c2d7a7b6c5c6c2!2sDLF%20Cyber%20City%2C%20DLF%20Phase%203%2C%20Gurugram%2C%20Haryana!5e0!3m2!1sen!2sin!4v1735422000000!5m2!1sen!2sin"
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1dsomeData!2d77.03155!3d28.42456!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390d180b42eaaaab%3A0xb746b1c28afae275!2sCandor%20TechSpace%2C%20Sector%2048%2C%20Gurugram!5e0!3m2!1sen!2sin!4vXXXXXXXXXXXX"
           width="100%"
           height="450"
           style={{ border: 0 }}

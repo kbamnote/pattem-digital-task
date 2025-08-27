@@ -4,7 +4,6 @@ import { Briefcase, Facebook, Twitter, Linkedin, Instagram } from "lucide-react"
 const Footer = () => {
   const links = [
     { name: "Home", link: "/" },
-    { name: "Mocks", link: "/mock" },
     { name: "Jobs", link: "/jobs" },
     { name: "About", link: "/about" },
     { name: "Contact Us", link: "/contact" },
@@ -36,11 +35,11 @@ const Footer = () => {
         <div>
           <h3 className="text-lg font-semibold mb-4 text-teal-400">Address</h3>
           <p className="text-gray-400 text-sm mb-3">
-            <strong>HEAD OFFICE:</strong>45 Skyline Plaza, Sector 18,
+            <strong>Head Office:</strong> 45 Skyline Plaza, Sector 18,
             Gurugram, Haryana - 122001
           </p>
           <p className="text-gray-400 text-sm">
-            <strong>BRANCH OFFICE:</strong> 123 Business Park Tower, MG Road,
+            <strong>Branch Office:</strong> 123 Business Park Tower, MG Road,
             Bengaluru, Karnataka - 560001
           </p>
         </div>

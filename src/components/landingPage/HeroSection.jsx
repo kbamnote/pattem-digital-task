@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { Search } from 'lucide-react';
+import { Link } from 'react-router-dom';
 
 const useNumberTicker = (endValue, duration = 2000) => {
   const [count, setCount] = useState(0);
@@ -28,7 +29,7 @@ const HeroSection = () => {
     { icon: "🏢", number: 18400, label: "Companies" },
   ];
 
-  // ✅ Call hooks in a fixed order (outside map)
+
   const counts = stats.map(stat => useNumberTicker(stat.number));
 
   return (
@@ -54,10 +55,12 @@ const HeroSection = () => {
               className="w-full pl-10 pr-3 py-2 rounded-md border border-gray-200 focus:outline-none focus:border-teal-500 focus:ring-1 focus:ring-teal-500"
             />
           </div>
+          <Link to='/jobs'>
           <button className="w-full sm:w-auto bg-teal-500 hover:bg-teal-600 text-white px-6 py-2 rounded-md flex items-center justify-center gap-2 shadow-lg hover:shadow-xl">
             <Search className="w-4 h-4" />
             <span>Search Job</span>
           </button>
+          </Link>
         </div>
 
         <div className="mt-12 sm:mt-20 grid grid-cols-1 lg:grid-cols-3 gap-6">
