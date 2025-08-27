@@ -23,11 +23,11 @@ The goal is to make job discovery simple, engaging, and mobile-friendly.
 
 🚀 Live Demo
 
-🔗 View Live Project
+🔗 https://pattem-digital-task-blue.vercel.app/
 
 📂 Repository
 
-🔗 GitHub Repo
+🔗 https://github.com/kbamnote/pattem-digital-task.git
 
 🛠️ Tech Stack
 
@@ -88,5 +88,4 @@ Documented for easy understanding
 
 Kunal Bamnote
 Frontend Developer | React | Tailwind | Next.js
-🔗 Portfolio
- | LinkedIn
+🔗 [Portfolio](https://kunal-bamnote.framer.website/)
